@@ -1,0 +1,20 @@
+const courses = [
+  {
+    title: "Excel for Business",
+    desc: "Learn Excel from beginner to advanced level.",
+    price: "₹499",
+    link: "https://dalviankita.gumroad.com/l/fpomgm"
+  },
+  {
+    title: "Tally with GST",
+    desc: "Complete accounting with Tally + GST practical.",
+    price: "₹499",
+    link: "https://dalviankita.gumroad.com"
+  },
+  {
+    title: "Power BI Masterclass",
+    desc: "Build dashboards and analyze data professionally.",
+    price: "₹499",
+    link: "https://dalviankita.gumroad.com"
+  }
+];
