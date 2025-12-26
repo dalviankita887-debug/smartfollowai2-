@@ -1,0 +1,15 @@
+const container = document.getElementById("courses");
+
+courses.forEach(course => {
+  const div = document.createElement("div");
+  div.className = "card";
+  div.innerHTML = `
+    <h3>${course.title}</h3>
+    <p>${course.desc}</p>
+    <p><b>${course.price}</b></p>
+    <a href="${course.link}" target="_blank">
+      <button>Buy Now</button>
+    </a>
+  `;
+  container.appendChild(div);
+});
